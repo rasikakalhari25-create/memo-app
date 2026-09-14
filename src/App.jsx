@@ -19,7 +19,7 @@ function App() {
     setSelectedNote(newNote);
     setEditedText(newNote.text)
   }
-  const handleSelect = (note) => {
+  const handleSelect = (note) => { 
     console.log(note);
     setSelectedNote(note);
     setEditedText(note.text);
